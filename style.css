@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(#555, #000);
+  height: 100vh;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.quadrado {
+  text-align: center;
+  width: 3.12rem;
+  background-color: #eee;
+  display: inline-block;
+  padding: 2.5rem;
+  font-size: 3.75rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  color: #eee;
+}
+
+.quadrado:hover {
+  background-color: #ccc;
+  color: #ccc;
+}
+
+.quadrado:active {
+  background-color: #bcf1c3;
+  color: #bcf1c3;
+}
+
+.jogador, .vencedor {
+  font-size: 2rem;
+  margin-top: 1.4rem;
+
+}
+
+button {
+  margin-top: 1.4rem;
+  width: 9rem;
+  height: 2rem;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: none;
+  
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+button:active {
+  background-color: #bcf1c3;
+}
+
+.clicado {
+  background-color: #fff;
+}
+
+.clicado:active {
+  background-color: rgb(229, 128, 128);
+}

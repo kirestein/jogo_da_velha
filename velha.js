@@ -117,3 +117,4 @@ function reiniciar() {
 
   mudarJogador('x')
 }
+
